@@ -1,0 +1,45 @@
+@import "partials/utilities/variables";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+@import "bourbon";
+@import "neat";
+@import "mixin/custom-mixin";
+@import "partials/nav";
+@import "partials/social-block";
+
+body{
+  background-color: #fca812;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  @include outer-container();
+}
+
+.title{
+  text-align: center;
+}
+
+.bg-facebook{
+  background-color: $color-facebook;
+}
+
+.bg-twitter{
+  background-color: $color-twitter;
+}
+
+.bg-linkedin{
+  background-color: $color-linkedin;
+}
+
+.bg-pinterest{
+  background-color: $color-pinterest;
+}
+
+.bg-googleplus{
+  background-color: $color-googleplus;
+}

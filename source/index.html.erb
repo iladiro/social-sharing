@@ -1,0 +1,59 @@
+---
+title: Social Sharing
+---
+
+<div class="container">
+  <h1 class="title">
+    <%= image_tag 'title.png', alt: 'Social Sharing', class: 'img-responsive' %>
+  </h1>
+  <%= partial("partials/block/general-block", locals: {
+        social_name: "facebook",
+        social_box_bg_color: "bg-facebook",
+        logo: "facebook.png",
+        alt_logo: "Facebook",
+        button_social: "button-facebook",
+        name_attr: "facebook"
+      }
+    )
+  %>
+  <%= partial("partials/block/general-block", locals: {
+        social_name: "twitter",
+        social_box_bg_color: "bg-twitter",
+        logo: "twitter.png",
+        alt_logo: "Twitter",
+        button_social: "button-twitter",
+        name_attr: "twitter"
+      }
+    )
+  %>
+  <%= partial("partials/block/general-block", locals: {
+        social_name: "linkedin",
+        social_box_bg_color: "bg-linkedin",
+        logo: "linkedin.png",
+        alt_logo: "Linkedin",
+        button_social: "button-linkedin",
+        name_attr: "linkedin"
+      }
+    )
+  %>
+  <%= partial("partials/block/general-block", locals: {
+        social_name: "googleplus",
+        social_box_bg_color: "bg-googleplus",
+        logo: "googleplus.png",
+        alt_logo: "Google Plus",
+        button_social: "button-googleplus",
+        name_attr: "googleplus"
+      }
+    )
+  %>
+  <%= partial("partials/block/general-block", locals: {
+        social_name: "pinterest",
+        social_box_bg_color: "bg-pinterest",
+        logo: "pinterest.png",
+        alt_logo: "Pinterest",
+        button_social: "button-pinterest",
+        name_attr: "pinterest"
+      }
+    )
+  %>
+</div>

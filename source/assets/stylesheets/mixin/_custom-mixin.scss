@@ -1,0 +1,23 @@
+@mixin space($padding, $margin){
+  padding: $padding;
+  margin: $margin;
+}
+
+@mixin font($family, $size, $lineheight, $color){
+  font-family: $family;
+  font-size: $size;
+  line-height: $lineheight;
+  color: $color;
+}
+
+@mixin border-sets($color, $width: 1px, $style: solid){
+  border: {
+    width: $width;
+    style: $style;
+    color: $color;
+  }
+}
+
+@mixin border-none($size: none){
+  border: $size;
+}

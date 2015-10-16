@@ -1,0 +1,36 @@
+<div class="block" id="<%= social_name %>">
+  <h2 class="title <%= social_box_bg_color %>">
+    <%= image_tag logo, height: "48", alt: alt_logo %>
+  </h2>
+  <div class="wrapper">
+    <div class="insert-value">
+
+      <!--field link-->
+      <div class="row-content">
+        <input type="text" placeholder="Insert link" data-key="link" title="Insert link" />
+        <span class="icon-empty">
+          <i class="fa fa-times"></i>
+        </span>
+      </div>
+      <!--end-->
+
+      <!--field title-->
+      <%= render_title(social_name) %>
+      <!--end-->
+
+      <!--field description-->
+      <%= render_description(social_name) %>
+      <!--end-->
+
+      <!--field image-->
+      <%= render_image(social_name) %>
+      <!--end-->
+
+      <a href="" class="button button-generate" id="<%= button_social %>" data-attr="<%= name_attr %>">Genera</a>
+    </div>
+    <div class="generated-link <%= social_box_bg_color %>">
+      <input type="text" placeholder="http://www.link.com" value="" />
+      <!--<a href="" class="button button-copy">Copia</a> -->
+    </div>
+  </div>
+</div>
