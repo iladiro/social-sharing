@@ -6,13 +6,18 @@ title: Social Sharing
   <h1 class="title">
     <%= image_tag 'title.png', alt: 'Social Sharing', class: 'img-responsive' %>
   </h1>
+  <p class="intro">
+    Would you add others social links?<br>
+    Click on the icons!!
+  </p>
   <%= partial("partials/block/general-block", locals: {
         social_name: "facebook",
         social_box_bg_color: "bg-facebook",
         logo: "facebook.png",
         alt_logo: "Facebook",
         button_social: "button-facebook",
-        name_attr: "facebook"
+        name_attr: "facebook",
+        display: "block"
       }
     )
   %>
@@ -22,7 +27,8 @@ title: Social Sharing
         logo: "twitter.png",
         alt_logo: "Twitter",
         button_social: "button-twitter",
-        name_attr: "twitter"
+        name_attr: "twitter",
+        display: "none"
       }
     )
   %>
@@ -32,7 +38,8 @@ title: Social Sharing
         logo: "linkedin.png",
         alt_logo: "Linkedin",
         button_social: "button-linkedin",
-        name_attr: "linkedin"
+        name_attr: "linkedin",
+        display: "none"
       }
     )
   %>
@@ -42,7 +49,8 @@ title: Social Sharing
         logo: "googleplus.png",
         alt_logo: "Google Plus",
         button_social: "button-googleplus",
-        name_attr: "googleplus"
+        name_attr: "googleplus",
+        display: "none"
       }
     )
   %>
@@ -52,7 +60,8 @@ title: Social Sharing
         logo: "pinterest.png",
         alt_logo: "Pinterest",
         button_social: "button-pinterest",
-        name_attr: "pinterest"
+        name_attr: "pinterest",
+        display: "none"
       }
     )
   %>

@@ -1,4 +1,4 @@
-<div class="block" id="<%= social_name %>">
+<div class="block" id="<%= social_name %>" style="display: <%= display %>">
   <h2 class="title <%= social_box_bg_color %>">
     <%= image_tag logo, height: "48", alt: alt_logo %>
   </h2>
@@ -26,7 +26,7 @@
       <%= render_image(social_name) %>
       <!--end-->
 
-      <a href="" class="button button-generate" id="<%= button_social %>" data-attr="<%= name_attr %>">Genera</a>
+      <a href="" class="button button-generate" id="<%= button_social %>" data-attr="<%= name_attr %>">Generates link</a>
     </div>
     <div class="generated-link <%= social_box_bg_color %>">
       <input type="text" placeholder="http://www.link.com" value="" />

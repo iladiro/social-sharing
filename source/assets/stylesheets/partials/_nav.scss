@@ -13,28 +13,13 @@
       @include space(14px 0 0 0, 0 0 0 -25px);
       @include size(45px);
       @include transition(all 0.2s linear);
-      &[data-button='add']{
+      &:first-child{
         background-color: #dd4167;
-      }
-      &[data-button='facebook']{
-        background-color: $color-facebook;
-      }
-      &[data-button='twitter']{
-        background-color: $color-twitter;
-      }
-      &[data-button='googleplus']{
-        background-color: $color-googleplus;
-      }
-      &[data-button='linkedin']{
-        background-color: $color-linkedin;
-      }
-      &[data-button='pinterest']{
-        background-color: $color-pinterest;
       }
       &:hover{
         margin-left: 0px;
       }
-      &.selected{
+      &.show{
         margin-left: 0px;
       }
     }

@@ -19,4 +19,4 @@ gem 'neat'
 
 gem 'font-awesome-sass'
 
-gem 'middleman-jasmine'
+# gem 'middleman-jasmine'

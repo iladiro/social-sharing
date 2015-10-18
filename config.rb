@@ -73,7 +73,7 @@ configure :build do
   activate :relative_assets
 
   # Use relative links
-  set :relative_links, true
+  # set :relative_links, true
 
 
   # Or use a different image path
